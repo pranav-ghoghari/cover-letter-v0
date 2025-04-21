@@ -2,7 +2,7 @@
 import { NextResponse } from 'next/server'
 
 const API_BASE = 'https://cover-letter-serverless-production.up.railway.app/api/test'
-const API_KEY   = process.env.API_SECRET_KEY!
+const API_KEY   = '96FB32684B2FF4D7742D75B98229A'
 
 function delay(ms: number) {
   return new Promise((resolve) => setTimeout(resolve, ms))
